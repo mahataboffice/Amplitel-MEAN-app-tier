@@ -1,0 +1,35 @@
+{
+  "name": "telstra_express",
+  "version": "1.0.0",
+  "description": "telstra backend",
+  "main": "server.js",
+  "scripts": {
+    "start": "node source/server.js",
+    "dev": "nodemon source/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1216.0",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.19.1",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "ejs": "^3.1.8",
+    "express": "^4.17.2",
+    "express-formidable": "^1.2.0",
+    "express-jwt": "^6.1.0",
+    "firebase-admin": "^10.0.1",
+    "fs": "^0.0.1-security",
+    "googleapis": "^108.0.0",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "mime-types": "^2.1.35",
+    "mongoose": "^6.1.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.8.0",
+    "nodemon": "^2.0.15",
+    "path": "^0.12.7"
+  }
+}
